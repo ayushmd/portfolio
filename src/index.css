@@ -27,6 +27,12 @@ body {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-family: "Arial", sans-serif; 
+  }
+}
+
 .checkbox-apple {
   position: relative;
   width: 50px;

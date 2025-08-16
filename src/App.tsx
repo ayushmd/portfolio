@@ -300,15 +300,15 @@ export default function Home() {
                         </span>
                         <ul className="text-xs sm:text-sm mt-2 space-y-2">
                             <li className="flex items-center gap-3">
-                                <span className="w-2 h-2 rounded-full bg-emerald-400 flex-shrink-0"></span>
+                                <span className="inline-block w-3 h-3 rounded-full  bg-emerald-400 flex-shrink-0"></span>
                                 <span>GointheTunnel (A Tunneling tool like ngrok)</span>
                             </li>
                             <li className="flex items-center gap-3">
-                                <span className="w-2 h-2 rounded-full bg-pink-400 flex-shrink-0"></span>
+                                <span className="inline-block w-3 h-3 rounded-full  bg-pink-400 flex-shrink-0"></span>
                                 <span>ClusterScaler (A Cross Cloud Cluster Autoscaler for kubernetes)</span>
                             </li>
                             <li className="flex items-center gap-3">
-                                <span className="w-2 h-2 rounded-full bg-cyan-400 flex-shrink-0"></span>
+                                <span className="inline-block w-3 h-3 rounded-full  bg-cyan-400 flex-shrink-0"></span>
                                 <span>go-ipc (A Go based process management library to spawn and kill processes and system level ipc.)</span>
                             </li>
                         </ul>

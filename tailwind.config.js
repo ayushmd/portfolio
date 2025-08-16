@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Lucida Console"', '"Courier New"', 'monospace'],
+        desktop: ['"Lucida Console"', '"Courier New"', 'monospace'],
+        mobile: ['Arial', 'sans-serif'],
       },
     },
   },
