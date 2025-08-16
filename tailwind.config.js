@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"Lucida Console"', '"Courier New"', 'monospace'],
+      },
+    },
   },
   plugins: [],
 }
