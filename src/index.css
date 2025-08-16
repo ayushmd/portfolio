@@ -27,7 +27,7 @@ body {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   body {
     font-family: "Arial", sans-serif; 
   }
