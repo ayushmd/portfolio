@@ -1,5 +1,11 @@
 import { useEffect, useState } from "react";
-
+import buymore from "./assets/buymore.png";
+import cue from "./assets/cue.png";
+import dockter from "./assets/dockter.png";
+import jspm from "./assets/jspm.png";
+import lilp from "./assets/lilp.png";
+import pm from "./assets/pm.png";
+import sqllike from "./assets/sqllike.png";
 
 const Chip = (props: { text: string }) => {
     return (
@@ -19,7 +25,7 @@ export default function Home() {
             articleLink: "",
             link: "https://github.com/ayushmd/Dockter",
             stack: ["Go", "Docker Engine", "Sqlite", "Kafka", "GRPC", "MongoDB", "AWS"],
-            imgLink: "/dockter.png"
+            imgLink: dockter
         },
         {
             title: "Cue",
@@ -28,7 +34,7 @@ export default function Home() {
             articleLink: "",
             link: "https://github.com/ayushmd/cue",
             stack: ["Go", "GRPC", "Heap", "PebbleDB"],
-            imgLink: "/cue.png"
+            imgLink: cue
         },
         {
             title: "BuyMore.ai",
@@ -37,7 +43,7 @@ export default function Home() {
             articleLink: "",
             link: "https://github.com/ayushmd/BuyMore.ai",
             stack: ["Flask", "MongoDB", "Falcon LLM", "Pinecone", "Reactjs"],
-            imgLink: "/buymore.png"
+            imgLink: buymore
         },
         {
             title: "SqlLike",
@@ -46,7 +52,7 @@ export default function Home() {
             articleLink: "",
             link: "https://github.com/ayushmd/sqlLike",
             stack: ["C++", "Lexer", "Parser - RDP", "AST"],
-            imgLink: "/sqllike.png"
+            imgLink: sqllike
         },
         {
             title: "LiLP",
@@ -55,7 +61,7 @@ export default function Home() {
             articleLink: "",
             link: "https://github.com/ayushmd/LiLP",
             stack: ["Python", "Tkinter", "PyPDF2", "pdf2docx"],
-            imgLink: "/lilp.png"
+            imgLink: lilp
         },
         {
             title: "Jspm",
@@ -64,7 +70,7 @@ export default function Home() {
             articleLink: "",
             link: "https://github.com/ayushmd/jspm",
             stack: ["Go", "semver parsing", "TUI", "Dependency Resolution"],
-            imgLink: "/jspm.png"
+            imgLink: jspm
         },
         {
             title: "go-ipc",
@@ -73,7 +79,7 @@ export default function Home() {
             articleLink: "",
             link: "https://github.com/ayushmd/go-ipc",
             stack: [],
-            imgLink: "/pm.png"
+            imgLink: pm
         },
     ]
 
