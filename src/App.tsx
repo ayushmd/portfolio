@@ -291,7 +291,7 @@ export default function Home() {
                         src="https://ghchart.rshah.org/000000/ayushmd"
                         alt="GitHub Contributions"
                         style={{ filter: "invert(100%)", width: "100%", height: "auto" }}
-                        className="my-6 sm:my-8 px-2 sm:px-4 md:px-12"
+                        className="my-6 sm:my-8 px-2 sm:px-4"
                     />
 
                     <div className="mx-2 sm:mx-4 my-4">
